@@ -1,0 +1,18 @@
+[21/Nov/2019:19:52:38] (ℹ️): WordPress Instance Info:
+[21/Nov/2019:19:52:38] (ℹ️): Home URL : http://localhost/wordpress
+[21/Nov/2019:19:52:38] (ℹ️): Site URL : http://localhost/wordpress
+[21/Nov/2019:19:52:38] (ℹ️): WordPress Version : 5.3
+[21/Nov/2019:19:52:38] (ℹ️): Onboarding Version : 1.7.10
+[21/Nov/2019:19:52:38] (ℹ️): Multisite : No
+[21/Nov/2019:19:52:38] (ℹ️): Server Info : Apache/2.4.39 (Win64) OpenSSL/1.1.1c PHP/7.3.8
+[21/Nov/2019:19:52:38] (ℹ️): PHP Version : 7.3.8
+[21/Nov/2019:19:52:38] (ℹ️): HTTPS : No
+[21/Nov/2019:19:52:38] (ℹ️): PHP Max Execution Time : 30
+[21/Nov/2019:19:52:38] (ℹ️): PHP Max Input Vars : 1000
+[21/Nov/2019:19:52:38] (ℹ️): Max Upload Size : 2097152
+[21/Nov/2019:19:52:38] (ℹ️): Plugins:
+[21/Nov/2019:19:52:38] (ℹ️): [PLUGIN] Elementor : v2.7.5 (Elementor.com)
+[21/Nov/2019:19:52:38] (ℹ️): [PLUGIN] Video Slider Rich : v1.2.9 (Rich-Web)
+[21/Nov/2019:19:52:38] (🔵): Installing elementor.
+[21/Nov/2019:19:52:38] (🔵): Activating elementor.
+[21/Nov/2019:19:52:38] (✅): Installed and activated plugins.

@@ -1,0 +1,96 @@
+2019-11-24T14:52:37+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): phoen_gift_card_change_product_price_display('<del><span clas...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2555): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2403): WPcleverWoosb->woosb_product_data_li(Object(WC_Product_Simple), 2)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): WPcleverWoosb->woosb_product_data_panels('')
+#6 C:\xampp\htdocs\wordpress\wp-inc in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php on line 308
+
+2019-11-24T15:46:19+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): phoen_gift_card_change_product_price_display('<del><span clas...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2555): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2403): WPcleverWoosb->woosb_product_data_li(Object(WC_Product_Simple), 6)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): WPcleverWoosb->woosb_product_data_panels('')
+#6 C:\xampp\htdocs\wordpress\wp-inc in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php on line 308
+
+2019-11-24T15:47:07+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): phoen_gift_card_change_product_price_display('<del><span clas...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2555): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2403): WPcleverWoosb->woosb_product_data_li(Object(WC_Product_Simple), 6)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): WPcleverWoosb->woosb_product_data_panels('')
+#6 C:\xampp\htdocs\wordpress\wp-inc in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php on line 308
+
+2019-11-24T15:57:31+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): phoen_gift_card_change_product_price_display('<del><span clas...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2555): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2403): WPcleverWoosb->woosb_product_data_li(Object(WC_Product_Simple), 6)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): WPcleverWoosb->woosb_product_data_panels('')
+#6 C:\xampp\htdocs\wordpress\wp-inc in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php on line 308
+
+2019-11-24T16:02:47+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): phoen_gift_card_change_product_price_display('<del><span clas...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version2\class-wc-rest-products-v2-controller.php(625): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version3\class-wc-rest-products-controller.php(1332): WC_REST_Products_V2_Controller->get_product_data(Object(WC in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php on line 308
+
+2019-11-24T16:03:01+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): phoen_gift_card_change_product_price_display('<del><span clas...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version2\class-wc-rest-products-v2-controller.php(625): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-rest-api\src\Controllers\Version3\class-wc-rest-products-controller.php(1332): WC_REST_Products_V2_Controller->get_product_data(Object(WC in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php on line 308
+
+2019-11-24T19:38:03+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): phoen_gift_card_change_product_price_display('<del><span clas...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2555): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2403): WPcleverWoosb->woosb_product_data_li(Object(WC_Product_Simple), 6)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): WPcleverWoosb->woosb_product_data_panels('')
+#6 C:\xampp\htdocs\wordpress\wp-inc in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php on line 308
+
+2019-11-24T19:41:21+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): phoen_gift_card_change_product_price_display('<del><span clas...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2555): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2403): WPcleverWoosb->woosb_product_data_li(Object(WC_Product_Simple), 6)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): WPcleverWoosb->woosb_product_data_panels('')
+#6 C:\xampp\htdocs\wordpress\wp-inc in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php on line 308
+
+2019-11-24T19:42:41+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): phoen_gift_card_change_product_price_display('<del><span clas...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2555): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2403): WPcleverWoosb->woosb_product_data_li(Object(WC_Product_Simple), 6)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): WPcleverWoosb->woosb_product_data_panels('')
+#6 C:\xampp\htdocs\wordpress\wp-inc in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php on line 308
+
+2019-11-24T19:44:33+00:00 CRITICAL Uncaught Error: Call to a member function get_type() on null in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php:308
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): phoen_gift_card_change_product_price_display('<del><span clas...', NULL)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(206): WP_Hook->apply_filters('<del><span clas...', Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1767): apply_filters('woocommerce_get...', '<del><span clas...', Object(WC_Product_Simple))
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2555): WC_Product->get_price_html()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woo-product-bundle\index.php(2403): WPcleverWoosb->woosb_product_data_li(Object(WC_Product_Simple), 6)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): WPcleverWoosb->woosb_product_data_panels('')
+#6 C:\xampp\htdocs\wordpress\wp-inc in C:\xampp\htdocs\wordpress\wp-content\plugins\gift-card-for-woocommerce\phoen_gift_card.php on line 308
+

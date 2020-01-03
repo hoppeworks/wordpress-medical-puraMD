@@ -1,0 +1,17 @@
+#gallery-con #gallery-main { margin: 0 auto; padding: 0; z-index: 0; position: relative; cursor: pointer; }
+#gallery-main img { height: 100%; width: 100%; }
+#gallery-con #gallery-hidden { margin: 0; padding: 0; position: absolute; display: none; z-index: -1; }
+#gallery-con #thumbnails { height: 132px; z-index: 10; opacity: 0.9; position: relative; margin: 0 auto; }
+#gallery-con #thumbnails:hover { -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+#gallery-con #thumbnails #thumbcon { height: 100%; display: inline-block; margin: 0; overflow: hidden; white-space: nowrap; float: left; }
+#gallery-con #thumbnails #thumbcon .thumb:hover { -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+#gallery-con #thumbnails #thumbcon .selected { -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+#gallery-con #thumbnails .ui-button { width: 32px; height: 32px; opacity: 0.60; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+#gallery-con #thumbnails .ui-button:hover { -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; opacity: 1; }
+#gallery-con #thumbnails #left-arrow { position:relative; top: 50%; margin-left: 1px; margin-right: 1px; display: inline-block; float: left; transform:translateY(-50%); -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); }
+#gallery-con #thumbnails #right-arrow { position:relative; top: 50%; margin-right: 1px; margin-left: 1px; display: inline-block; float: right; transform:translateY(-50%); -webkit-transform:translateY(-50%); -ms-transform:translateY(-50%); }
+#gallery-con #thumbnails .icon { position:absolute; display: inline-block; width: 100%; height: 100%; top:0%; left:0%; background-repeat: no-repeat; cursor: pointer; z-index: 22; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+#gallery-con #thumbnails .icon-play { background: url(../Images/play.png) no-repeat center center; background-size:50% 50%; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+#gallery-con #thumbnails .icon-pause { background: url(../Images/stop.png) no-repeat center center; background-size:50% 50%; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+#gallery-con #thumbnails .icon-arrow-right { background: url(../Images/next.png) no-repeat center center; background-size:75% 45%; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }
+#gallery-con #thumbnails .icon-arrow-left { background: url(../Images/prev.png) no-repeat center center; background-size:75% 45%; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; transition: all 0.5s ease; }

@@ -1,0 +1,665 @@
+.phoen_giftcard_head {
+    float: left;
+    width: 100%;
+}
+
+.phoen_image_popup {
+    background-color: #eee;
+    height: 500px;
+    left: 50%;
+    overflow: auto;
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    width: 900px;
+    z-index: 9999;
+}
+
+.phoe_gift_overly {
+    background-color: rgba(251, 251, 251, 0.8);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.phoen_image_popup .phoen_image1 {
+    float: left;
+    margin: 0 2%;
+    width: 21%;
+}
+
+.phoen_crose_popup {
+    background-color: #000;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 30px;
+	cursor: pointer;
+}
+
+.phoen_two_template_btn {
+    float: left;
+    width: 100%;
+	margin: 0 0 14px;
+}
+
+.phoen_two_template_btn .phoen_upload_tem, 
+.phoen_two_template_btn .phoen_gift_cart_product {
+    float: left;
+    width: auto;
+}
+
+.phoen_upload_tem {
+	margin-right: 15px;
+}
+
+.phoen_select_amount {
+    float: left;
+    width: 100%;
+}
+
+.phoen_select_amount {
+    float: left;
+    margin: 15px 0 15px;
+    width: 100%;
+}
+
+.phoen_select_amount label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.phoen_gift_cart_product {
+    float: left;
+    margin: 0 0 15px;
+    width: 100%;
+}
+
+.phoen_giftcard_head label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.phoen_gift_cart_product .phoe_remove_range_disc_div.button {
+	float: none !important;
+}
+
+.phoeniixx_rewd_min_max_div,
+.phoeniixx_red_points_div {
+	width: 100%;
+	float: left;
+}
+
+.phoen_giftcard_head .phoe_range_add_disc_more.button {
+    margin-top: 5px;
+}
+
+.phoen_giftcard_head .phoeniixx_red_points_div {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+
+.phoen_giftcard_expiry_date {
+    float: left;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.phoen_panel_options {
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+
+.phoeniixx_range_html_content_div .phoeniixx_red_points_div {
+    border: medium none;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.phoeniixx_range_html_content_div .phoeniixx_red_points_div span,
+.phoeniixx_range_html_content_div .phoeniixx_red_points_div .phoe_remove_range_disc_div.button {
+    vertical-align: middle;
+}
+
+.phoeniixx_range_html_content_div .phoeniixx_red_points_div .phoe_remove_range_disc_div.button {
+    background-color: red;
+    border: medium none;
+    border-radius: 50%;
+    box-shadow: none;
+    color: #fff;
+    height: 25px;
+    line-height: 22px;
+    margin-left: 10px;
+    padding: 0;
+    width: 25px;
+}
+
+.phoeniixx_range_html_content_div .phoeniixx_red_points_div span {
+	font-weight: 500;
+}
+
+.phoen_panel_options .phoe_range_add_disc_more.button {
+	margin-top: 5px;
+}
+
+.phoen_image_popup .phoen_image1 .button_url1 {
+    background-color: #ccc;
+    border-radius: 6px;
+    padding: 8px;
+    text-align: center;
+	cursor: pointer;
+}
+
+.phoen_status_deactive,
+.phoen_status_active {
+    border-radius: 4px;
+    color: #fff !important;
+    padding: 4px;
+    text-align: center;
+}
+
+.phoen_status_deactive{
+	background-color:#C9302C;
+}
+
+.phoen_apply_gift_coupon {
+	margin-bottom: 20px;
+}
+
+/* select amount css */
+.phoen_gift_amount_cls {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.phoen_gift_amount_cls li.phoen_pric {
+    border: 1px solid #ccc;
+    color: #555;
+    float: left;
+    line-height: 40px;
+    margin-right: 6px;
+    margin-top: 6px;
+    padding: 22px 0;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+.single-product.single .phoen_gift_cart_product input {
+	width: 100%;
+	box-sizing: border-box;
+    border-radius: 24px;
+    padding: 10px 15px;
+}
+
+.phoen_gift_amount_cls li.phoen_pric.active::after {
+    content: "\2713";
+    color: #0069ff;
+    font-size: 24px;
+    height: 25px;
+    line-height: 25px;
+    padding: 0;
+    position: absolute;
+    right: 18px;
+    text-align: center;
+    top: 8px;
+    width: 25px;
+	font-weight: 600;
+}
+
+.phoen_gift_amount_cls li.phoen_pric.active::after {
+    
+}
+
+.phoen_gift_amount_cls li.phoen_pric.active::before {
+    background-color: rgba(251, 251, 251, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	 border-radius: 24px;
+}
+
+.phoen_gift_amount_cls li.phoen_pric.active {
+    border-color: #0069ff;
+}
+
+.phoen_image_popup .phoen_image1:nth-child(4n+2) {
+    clear: left;
+}
+
+.phoen_val_notice span {
+    background-color: #f2dede;
+    border-radius: 4px;
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.phoen_gift_amount_cls li.phoen_custom_p_input {
+   border: 1px solid #ccc;
+    border-radius: 5px;
+    float: left;
+    margin-right: 6px;
+    margin-top: 6px;
+    width: 23%;
+	position: relative;
+	padding: 14px 5px 15px;
+	min-height: 71px;
+}
+
+.phoen_gift_amount_cls .phoen_custom_p_input input.phoen_hidden_text[type="number"] {
+    display: inline-block;
+    width: 85%;
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+	padding: 10px 0 10px 0;
+	border: none;
+	border-bottom: #ccc solid 1px;
+	text-align: center;
+	font-size: 12px;
+	color: #333;
+}
+
+.phoen_gift_amount_cls li.phoen_custom_p_input span.tolltip {
+    color: #333;
+    font-size: 11px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 2px;
+    width: 96px;
+}
+
+.phoen_gift_amount_cls li.phoen_custom_p_input span.tolltip {
+    color: #222;
+    font-size: 11px;
+    left: 0;
+    padding: 5px 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 97px;
+}
+
+
+/* Price position */
+#phoen_recent_img {
+    display: inline-block;
+    position: relative;
+}
+
+.phoen_easter1 .phoen_price_add_main {
+    bottom: 140px;
+    color: #fff;
+    font-size: 46px;
+    font-weight: 500;
+    left: 40px;
+    position: absolute;
+}
+
+.phoen_christnmas .phoen_price_add_main {
+    background-color: #fff;
+    border-radius: 10px;
+    color: #e10019;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 600;
+    left: 20px;
+    padding: 7px 20px;
+    position: absolute;
+    top: 20px;
+}
+
+.phoen_christnmas1 .phoen_price_add_main {
+    color: #e10019;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 600;
+    left: 20px;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+}
+
+.phoen_christmas .phoen_price_add_main {
+    bottom: 12px;
+    color: #0a2b3e;
+    font-size: 30px;
+    font-weight: 600;
+    left: 225px;
+    position: absolute;
+}
+
+.phoen_easter .phoen_price_add_main {
+    color: #fff;
+    font-size: 40px;
+    left: 70px;
+    position: absolute;
+    top: 60px;
+}
+
+.phoen_easter2 .phoen_price_add_main {
+    color: #fff;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    left: 30px;
+    position: absolute;
+    top: 15px;
+}
+
+.phoen_anniversary .phoen_price_add_main {
+    color: #cf0e21;
+    font-size: 24px;
+    font-weight: 600;
+    left: 102px;
+    position: absolute;
+    top: 60px;
+}
+
+.phoen_diwali .phoen_price_add_main {
+    bottom: 120px;
+    color: #77007a;
+    font-size: 30px;
+    font-weight: 600;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.phoen_new_year .phoen_price_add_main {
+    border: 3px solid #fff;
+    color: #fff;
+    font-size: 22px;
+    line-height: 1;
+    padding: 6px 9px 8px;
+    position: absolute;
+    right: 31px;
+    top: 37px;
+}
+
+.phoen_new_year1 .phoen_price_add_main {
+    color: #fff;
+    font-size: 26px;
+    left: 33px;
+    position: absolute;
+    top: 30px;
+}
+
+.phoen_valentine .phoen_price_add_main {
+    bottom: 18px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    left: 250px;
+    position: absolute;
+}
+
+.phoen_night .phoen_price_add_main {
+    bottom: 110px;
+    color: #c7a375;
+    font-size: 40px;
+    font-weight: 600;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+.phoen_surprise .phoen_price_add_main {
+    bottom: 65px;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+    position: absolute;
+    right: 220px;
+}
+
+.pho .phoen_price_add_main {
+    color: #206d93;
+    font-size: 30px;
+    font-weight: 600;
+    left: 50%;
+    position: absolute;
+    top: 109px;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+
+/* Input css */
+.phoen_sender_email_id,
+.phoen_recent_emaol {
+    float: left;
+    width: 100%;
+	margin-bottom: 20px;
+}
+
+.phoen_recent_emaol .phoen_recent_inp {
+    float: left;
+    width: 49%;
+}
+
+
+.phoen_recent_emaol .phoen_recent_inp:nth-child(2) {
+	margin-left: 2%;
+}
+
+.phoen_sender_email_id textarea {
+	width: 100%;
+}
+
+.phoen_gift_amount_cls li {
+    cursor: pointer;
+}
+
+.phoen_gift_cart_product .phoen_two_template_btn {
+    float: left;
+    margin: 15px 0 10px;
+    width: 100%;
+}
+
+.phoen_add_sec_btn {
+    border-top: 1px dashed #ccc;
+    float: left;
+    margin: 20px 0;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.phoen_gift_cart_product .phoe_remove_range_disc_div {
+	float: right;
+	text-align: right;
+	width: auto;
+}
+
+.phoen_gift_cart_product p.phoe_remove_range_disc_div button {
+    background-color: #000;
+    color: #fff;
+    height: 30px;
+    line-height: 1;
+    margin-top: 25px;
+    padding: 0;
+    width: 30px;
+	border: none;
+}
+
+.phoen_gift_cart_product p.phoe_remove_range_disc_div button:hover {
+    background-image: none;
+    box-shadow: none;
+}
+
+.pho.phoen_custom_class .phoen_price_add_main {
+    color: #333;
+    font-size: 28px;
+    left: auto;
+    position: inherit;
+    top: auto;
+    transform: inherit;
+    -webkit-transform: inherit;
+    -moz-transform: inherit;
+}
+
+.phoen_price_add_main .pho_symbol {
+    margin-right: -7px;
+}
+
+.phoen_card_point_main_inp label {
+	margin: 0;
+}
+
+.phoen_card_point_main_inp {
+    float: left;
+    margin: 20px 0 10px;
+    width: 100%;
+}
+
+#gift_card_options {
+    padding: 20px;
+}
+
+#gift_card_options .phoeniixx_range_html_content_div .phoeniixx_red_points_div {
+    border: 1px dashed #ccc;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: auto;
+}
+
+.phoe_bk_add_btn {
+    float: left;
+    width: 100%;
+}
+
+#gift_card_options .form-field {
+	padding: 0 !important;
+}
+
+#gift_card_options .form-field label {
+	margin: 0;
+}
+
+/* custom price tag */
+
+.show_images.custom_2 .phoen_custom_price_tag {
+    position: absolute;
+    right: 20px;
+    top: -30px;
+    width: 100px;
+}
+
+.show_images.custom_2 .phoen_custom_price_tag .phoen_price_add_main {
+    bottom: 15px;
+    color: #734f27;
+    font-size: 24px;
+    font-weight: 600;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+}
+
+#phoen_recent_img.show_images.custom_2 {
+	overflow: hidden;
+}
+
+#phoen_recent_img {
+    width: 100%;
+}
+
+.cart.gift_card_cart .input-text.qty {
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	width: 60px;
+}
+
+.form-table th {
+	
+	width: 270px;
+	
+	padding: 25px;
+	
+}
+
+.form-table td {
+
+	padding: 20px 10px;
+}
+
+.form-table {
+
+	background-color: #fff;
+}
+
+h3 {
+
+	padding: 10px;
+	
+}
+
+.form-table {
+	width: 98%;
+}
+
+.phoen_status_active {
+    color: #fff;
+    font-size: 13px;
+    padding: 5px;
+	background-color:#449D44;
+}
+
+.woocommerce-MyAccount-content .phoen_gift_card .phoen_status_active,
+.woocommerce-MyAccount-content .phoen_gift_card .phoen_status_deactive {
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    margin: 5px 0;
+    padding: 3px 10px;
+    text-align: center;
+}
+.woocommerce-MyAccount-content .phoen_gift_card .phoen_status_active{
+	background-color:green;
+}
+.woocommerce-MyAccount-content .phoen_gift_card .phoen_status_deactive{
+	background-color:red;
+}
+
+.form-table tr.phoen_gift_card th {
+	padding: 25px 10px 25px 0;
+}
+
+/* new css */
+
+.phoen_gift_amount_cls li.phoen_pric{
+    padding:0px 0px;
+    width: 22%;
+    border-radius: 24px;
+}
